@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-criar-pensamento',
@@ -12,9 +13,13 @@ export class CriarPensamentoComponent implements OnInit {
     modelo: 'modelo1',
   };
 
+  constructor(private router: Router) {}
+
   ngOnInit(): void {}
 
   criarPensamento() {}
 
-  cancelar() {}
+  cancelar() {
+    this.router.navigate(['/listarPensamento']);
+  }
 }
