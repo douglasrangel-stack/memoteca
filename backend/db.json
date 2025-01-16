@@ -15,20 +15,8 @@
     {
       "id": 3,
       "conteudo": "Continue a codar... continue a codar...",
-      "autoria": "Dory programadora",
+      "autoria": "Douglas Rangel",
       "modelo": "modelo3"
-    },
-    {
-      "conteudo": "Testando função de editar",
-      "autoria": "Angular ",
-      "modelo": "modelo2",
-      "id": 4
-    },
-    {
-      "conteudo": "Aqui estou",
-      "autoria": "Douglas",
-      "modelo": "modelo3",
-      "id": 5
     }
   ]
 }
