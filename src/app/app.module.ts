@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CriarPensamentoComponent } from './components/content/criar-pensamento/criar-pensamento.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ListarPensamentoComponent } from './components/content/listar-pensamento/listar-pensamento.component';
 import { PensamentoComponent } from './components/content/pensamento/pensamento.component';
 import { HttpClientModule } from '@angular/common/http';
@@ -24,7 +24,13 @@ import { EditarPensamentoComponent } from './components/content/editar-pensament
     ExcluirPensamentoComponent,
     EditarPensamentoComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
