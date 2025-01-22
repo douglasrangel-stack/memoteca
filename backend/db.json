@@ -4,43 +4,50 @@
       "id": 1,
       "conteudo": "We are the champions my friends!!!",
       "autoria": "Queen",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": true
     },
     {
       "id": 2,
       "conteudo": "Na minha máquina funciona!",
       "autoria": "Dev da madrugada",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": true
     },
     {
       "id": 3,
       "conteudo": "Continue a codar... continue a codar...",
       "autoria": "Douglas Rangel",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
       "conteudo": "Formularios reativos",
       "autoria": "Douglas",
       "modelo": "modelo2",
-      "id": 4
+      "id": 4,
+      "favorito": false
     },
     {
       "conteudo": "Formularios reativos",
       "autoria": "Douglas",
       "modelo": "modelo2",
-      "id": 5
+      "id": 5,
+      "favorito": false
     },
     {
       "conteudo": "Formularios reativos",
       "autoria": "Douglas",
       "modelo": "modelo2",
-      "id": 6
+      "id": 6,
+      "favorito": false
     },
     {
       "conteudo": "Teste de paginação",
       "autoria": "Douglas",
       "modelo": "modelo3",
-      "id": 7
+      "id": 7,
+      "favorito": false
     }
   ]
 }
